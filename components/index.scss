@@ -1,0 +1,19 @@
+$full-width:100%;
+$full-height:100%;
+$fontcolor-black:#313131;
+$fontcolor-white:#fff;
+$fontsize-normal:1.4em;
+$lineheight-normal:1.5;
+
+@mixin middle-block{
+    margin: 0 auto;
+}
+@mixin section-list-item{
+    list-style: none;
+    display: inline-flex;
+    flex: 1;
+}
+@mixin hoverpointer{
+    cursor: pointer;
+}
+

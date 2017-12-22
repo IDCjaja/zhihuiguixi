@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>building</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="building" fill="#ffffff">
+            <path d="M57,24.6716068 L59,22 L50,22 L52,24.6722756 L52,51.3277244 L50,54 L59,54 L57,51.3283932 L57,24.6716068 Z M42,24.6716068 L44,22 L35,22 L37,24.6722756 L37,51.3277244 L35,54 L44,54 L42,51.3283932 L42,24.6716068 Z M27,24.6716068 L29,22 L20,22 L22,24.6722756 L22,51.3277244 L20,54 L29,54 L27,51.3283932 L27,24.6716068 Z M12,24.6716068 L14,22 L5,22 L7,24.6722756 L7,51.3277244 L5,54 L14,54 L12,51.3283932 L12,24.6716068 Z M32,1 L62,19 L2,19 L32,1 Z M2.87638824,57 L61.1236118,57 L64,63 L3.55271368e-15,63 L2.87638824,57 Z M32,15 C34.209139,15 36,13.209139 36,11 C36,8.790861 34.209139,7 32,7 C29.790861,7 28,8.790861 28,11 C28,13.209139 29.790861,15 32,15 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

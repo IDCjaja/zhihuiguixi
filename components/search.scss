@@ -1,0 +1,33 @@
+@import 'index';
+
+.search-wrapper{
+    height: 16px;
+    width: 792px;
+    padding: 16px;
+    border-radius: 2px;
+    background-position: center;
+    background-repeat:no-repeat;  
+    @include middle-block;
+    .search-input{
+        width: $full-width; 
+        height: 16px;
+        font-size: $fontsize-normal;
+        border-width: 0;
+        color: $fontcolor-white;
+        line-height: 64px;
+        background-color: transparent;
+        text-indent: 10px;
+        :placeholder{
+            color: $fontcolor-white;   
+        }
+    }
+    a{
+        position: relative;
+        right: -780px;
+        top: -15px;
+    }
+    .search-icon{
+        width: 20px;
+        height: 20px;
+    }
+}

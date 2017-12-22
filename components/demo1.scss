@@ -1,0 +1,81 @@
+@import 'index';
+
+
+$navbar-height:84px;
+
+@mixin btn-corner{
+    height: 34px;
+    padding: 6px 0 6px 0;
+    margin-left: 5px;
+    margin-right: 5px; 
+    font-size:$fontsize-normal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+} 
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+html,body{
+    width:$full-width;
+    height: 100%;
+    // background-color:rgba(0,0,0,0.3); 
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.container {
+    width: $full-width;
+    max-width: 1280px;
+    min-width: 1024px;
+    @include middle-block;
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+
+.navbar {
+    width: $full-width;
+    height: $navbar-height;
+    .navbar-header {
+        width: 200px;
+        float: left;
+        img {
+            width:auto; 
+            height: 60px;
+            padding: 12px 0 12px 0;
+        }
+    }
+    .navbar-btns{
+        text-align: right;
+        line-height: $navbar-height;
+        .btn-role{
+            width: 80px;
+            background: transparent;
+            line-height: $lineheight-normal;
+            color: $fontcolor-white;
+            @include btn-corner;
+            &:hover,&.active{
+                border: 1px solid $fontcolor-white;
+            }
+
+        }
+        .btn-login{
+            width: 60px;
+            background: #f6f6f6;
+            color: $fontcolor-black;
+            border: 1px solid #f6f6f6;
+            line-height: $lineheight-normal;
+            @include btn-corner;
+        }
+    }
+}

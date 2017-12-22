@@ -1,0 +1,54 @@
+@import 'index';
+
+.section {
+    width: 808px;
+    height: 192px;
+    margin-top: 80px;
+    .section-list {
+        width: $full-width;
+        height: 100%;
+        text-align: center;
+        .list-item-show {
+            width: 260px;
+            height: 100%;
+            margin-right: 8px;
+            background-size:320% 120%;
+            background-origin: 0 0;
+            font-size: 1.4em;
+            color: $fontcolor-white;
+            justify-content: center;
+            align-items: center;
+            @include section-list-item;
+            @include hoverpointer;
+            &:last-child{
+                margin-right: 0;
+            }
+            embed {
+                display: block;
+                height: 5.4rem;
+                @include middle-block;
+                @include hoverpointer;
+
+            }
+            label {
+                height: 25px;
+                margin-top: 24px;
+                display: block;
+                font-size: 1.4em;
+                a{
+                    text-decoration: none;
+                    color: $fontcolor-white;
+                }
+            }
+        }
+        .list-item-show-government{
+            background-position: 0 0;
+        }
+        .list-item-show-appeal{
+            background-position: 1379px 0;
+        }
+        .list-item-show-appointment{
+            background-position: 269px 0;
+        }
+    }
+}

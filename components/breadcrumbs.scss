@@ -1,0 +1,27 @@
+@import 'index';
+
+.breadcrumbs-wrapper {
+    margin: 10px 100px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #e5e5e5;
+    .breadcrumbs {
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                font-size: 1.5em;
+                color: #313131;
+                &::after{
+                    content: "/";
+                    padding: 0 5px;
+                    color: #313131;
+                }
+            }
+        }
+        li:nth-child(1) a::after{
+            content: ""
+        }
+    }
+}
